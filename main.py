@@ -20,7 +20,10 @@ class MainWindow(QMainWindow):
         self.ui.clear_bt.clicked.connect(self.clear)
         self.ui.start_bt.clicked.connect(self.start)
         self.ui.refresh_bt.clicked.connect(self.refresh)
-        #self.ui.send_CMD_bt.clicked.connect(self.sendcmd)
+        self.ui.send_CMD_bt.clicked.connect(self.sendcmd)
+
+    def sendcmd(self):
+        pass
 
     def clear(self):
         print("Clear")
@@ -51,8 +54,8 @@ class SerialThread(QThread):
         self.port =Port(com=com,baud=baud,end='$',filename="Project")
         self.port.connect()
         self.dict = {
-            'C': ["TYP","PKG","CLO","ALT","LAT","LNG","TEP","HUM","BAT","ACX","ACY","ACZ","GYX","GYY","GYZ"],
-            'R': ["TYP","PKG","ALT","LAT","LNG","TEP","BAT","ACX","ACY","ACZ","GYX","GYY","GYZ"],
+            'C': ["TYP","PKG","CLO","ALT","LAT","LNG","TEP","HUM","BAT","ACX","ACY","ACZ","GYX","GYY","GYZ","PEE","POS"],
+            'R': ["TYP","PKG","ALT","LAT","LNG","TEP","BAT","ACX","ACY","ACZ","GYX","GYY","GYZ","PEE","POS"],
             'G': ["TYP", "LAT", "LNG", "ALT", "MGX", "MGY", "MGZ"]
         }
 
@@ -105,6 +108,7 @@ class TimerThread(QThread):
 class Controller:
     def __init__(self) -> None:
         self.show_ui()
+        self.set_clock()
 
     def show_ui(self):
         self.ui_main = MainWindow()
@@ -127,7 +131,7 @@ class Controller:
     def set_clock(self):
         self.clock = TimerThread()
         self.clock.carrier1.connect(self.update_clock)
-        self.clock.carrier2.connect(self.update_elasped)
+        self.clock.carrier2.connect(self.update_elapsed)
         self.clock.start()
 
     def update_cansat(self,data):
@@ -172,7 +176,9 @@ class Controller:
         self.plot(self.ui_main.ui.Roc_Alt_graph,self.rocket["PKG"],self.rocket["ALT"])
         self.plot(self.ui_main.ui.Roc_Tem_graph,self.rocket["PKG"],self.rocket["TEM"])
         
-        
+    def update_both(self,data):
+        self.ui_main.ui.T_C_R_peek.setText(str(data["PEE"]))
+        self.ui_main.ui.T_C_R_posi.setText(str(data["POS"]))
 
     def update_ground(self,data):
         pass
@@ -180,7 +186,7 @@ class Controller:
     def update_clock(self,data):
         self.ui_main.ui.time.setText(data)
 
-    def update_elasped(self,data):
+    def update_elapsed(self,data):
         self.ui_main.ui.elapsed.setText(data)
 
     def plot(self, graph, x, y):

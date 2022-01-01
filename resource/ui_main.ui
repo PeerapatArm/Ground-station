@@ -1199,7 +1199,7 @@ font: 25 14pt &quot;Yu Mincho Light&quot;;</string>
              <string notr="true">font: 25 10pt &quot;Yu Mincho Light&quot;;</string>
             </property>
             <property name="text">
-             <string>AZIMUDTH</string>
+             <string>AZIMUTH</string>
             </property>
            </widget>
           </item>
@@ -1386,7 +1386,6 @@ background-color: rgb(0, 0, 0);</string>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../../งาน/space ac/logo.qrc"/>
   <include location="../logo.qrc"/>
  </resources>
  <connections/>

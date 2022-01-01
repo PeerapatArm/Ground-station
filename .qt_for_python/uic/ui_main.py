@@ -21,7 +21,6 @@ from PySide6.QtWidgets import (QApplication, QComboBox, QFrame, QGridLayout,
 
 from pyqtgraph import PlotWidget
 import logo_rc
-import logo_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -732,7 +731,7 @@ class Ui_MainWindow(object):
         self.Lat.setText(QCoreApplication.translate("MainWindow", u"0", None))
         self.T_Ele.setText(QCoreApplication.translate("MainWindow", u"ELEVATION", None))
         self.Azi.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Azi.setText(QCoreApplication.translate("MainWindow", u"AZIMUDTH", None))
+        self.T_Azi.setText(QCoreApplication.translate("MainWindow", u"AZIMUTH", None))
         self.T_file_name.setText(QCoreApplication.translate("MainWindow", u"File name :", None))
         self.comboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"CMDCX,ON$", None))
         self.comboBox.setItemText(1, QCoreApplication.translate("MainWindow", u"CMDCX,OFF$", None))
