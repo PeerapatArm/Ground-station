@@ -40,6 +40,312 @@ class Ui_MainWindow(object):
         self.gridLayout.setSpacing(0)
         self.gridLayout.setObjectName(u"gridLayout")
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
+        self.widget_3 = QWidget(self.centralwidget)
+        self.widget_3.setObjectName(u"widget_3")
+        self.gridLayout_5 = QGridLayout(self.widget_3)
+        self.gridLayout_5.setObjectName(u"gridLayout_5")
+        self.T_Can_Humid = QLabel(self.widget_3)
+        self.T_Can_Humid.setObjectName(u"T_Can_Humid")
+
+        self.gridLayout_5.addWidget(self.T_Can_Humid, 1, 0, 1, 1)
+
+        self.T_Can_rotat = QLabel(self.widget_3)
+        self.T_Can_rotat.setObjectName(u"T_Can_rotat")
+
+        self.gridLayout_5.addWidget(self.T_Can_rotat, 3, 0, 1, 1)
+
+        self.T_C_R_peek = QLabel(self.widget_3)
+        self.T_C_R_peek.setObjectName(u"T_C_R_peek")
+
+        self.gridLayout_5.addWidget(self.T_C_R_peek, 4, 0, 1, 1)
+
+        self.T_C_R_posi = QLabel(self.widget_3)
+        self.T_C_R_posi.setObjectName(u"T_C_R_posi")
+
+        self.gridLayout_5.addWidget(self.T_C_R_posi, 5, 0, 1, 1)
+
+        self.T_Can_PKG = QLabel(self.widget_3)
+        self.T_Can_PKG.setObjectName(u"T_Can_PKG")
+        self.T_Can_PKG.setMinimumSize(QSize(50, 0))
+        self.T_Can_PKG.setMaximumSize(QSize(100, 16777215))
+        self.T_Can_PKG.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Can_PKG, 7, 0, 1, 1)
+
+        self.T_Can_2 = QLabel(self.widget_3)
+        self.T_Can_2.setObjectName(u"T_Can_2")
+
+        self.gridLayout_5.addWidget(self.T_Can_2, 6, 0, 1, 2)
+
+        self.T_Can_ACCX = QLabel(self.widget_3)
+        self.T_Can_ACCX.setObjectName(u"T_Can_ACCX")
+        self.T_Can_ACCX.setMinimumSize(QSize(50, 0))
+        self.T_Can_ACCX.setMaximumSize(QSize(100, 16777215))
+        self.T_Can_ACCX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Can_ACCX, 8, 0, 1, 1)
+
+        self.Can_ACCX = QLabel(self.widget_3)
+        self.Can_ACCX.setObjectName(u"Can_ACCX")
+        self.Can_ACCX.setMinimumSize(QSize(50, 0))
+        self.Can_ACCX.setMaximumSize(QSize(100, 16777215))
+        self.Can_ACCX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.Can_ACCX, 8, 1, 1, 1)
+
+        self.Roc_ACCX = QLabel(self.widget_3)
+        self.Roc_ACCX.setObjectName(u"Roc_ACCX")
+        self.Roc_ACCX.setMinimumSize(QSize(50, 0))
+        self.Roc_ACCX.setMaximumSize(QSize(100, 16777215))
+        self.Roc_ACCX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+        self.Roc_ACCX.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Roc_ACCX, 8, 3, 1, 1)
+
+        self.T_Can_ACCY = QLabel(self.widget_3)
+        self.T_Can_ACCY.setObjectName(u"T_Can_ACCY")
+        self.T_Can_ACCY.setMinimumSize(QSize(50, 0))
+        self.T_Can_ACCY.setMaximumSize(QSize(100, 16777215))
+        self.T_Can_ACCY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Can_ACCY, 9, 0, 1, 1)
+
+        self.T_Roc_ACCX = QLabel(self.widget_3)
+        self.T_Roc_ACCX.setObjectName(u"T_Roc_ACCX")
+        self.T_Roc_ACCX.setMinimumSize(QSize(50, 0))
+        self.T_Roc_ACCX.setMaximumSize(QSize(100, 16777215))
+        self.T_Roc_ACCX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Roc_ACCX, 8, 2, 1, 1)
+
+        self.Can_ACCY = QLabel(self.widget_3)
+        self.Can_ACCY.setObjectName(u"Can_ACCY")
+        self.Can_ACCY.setMinimumSize(QSize(50, 0))
+        self.Can_ACCY.setMaximumSize(QSize(100, 16777215))
+        self.Can_ACCY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.Can_ACCY, 9, 1, 1, 1)
+
+        self.Roc_PKG = QLabel(self.widget_3)
+        self.Roc_PKG.setObjectName(u"Roc_PKG")
+        self.Roc_PKG.setMinimumSize(QSize(50, 0))
+        self.Roc_PKG.setMaximumSize(QSize(100, 16777215))
+        self.Roc_PKG.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+        self.Roc_PKG.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Roc_PKG, 7, 3, 1, 1)
+
+        self.T_Roc_PKG = QLabel(self.widget_3)
+        self.T_Roc_PKG.setObjectName(u"T_Roc_PKG")
+        self.T_Roc_PKG.setMinimumSize(QSize(50, 0))
+        self.T_Roc_PKG.setMaximumSize(QSize(100, 16777215))
+        self.T_Roc_PKG.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Roc_PKG, 7, 2, 1, 1)
+
+        self.T_Roc_ACCY = QLabel(self.widget_3)
+        self.T_Roc_ACCY.setObjectName(u"T_Roc_ACCY")
+        self.T_Roc_ACCY.setMinimumSize(QSize(50, 0))
+        self.T_Roc_ACCY.setMaximumSize(QSize(100, 16777215))
+        self.T_Roc_ACCY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Roc_ACCY, 9, 2, 1, 1)
+
+        self.T_Can_ACCZ = QLabel(self.widget_3)
+        self.T_Can_ACCZ.setObjectName(u"T_Can_ACCZ")
+        self.T_Can_ACCZ.setMinimumSize(QSize(50, 0))
+        self.T_Can_ACCZ.setMaximumSize(QSize(100, 16777215))
+        self.T_Can_ACCZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Can_ACCZ, 10, 0, 1, 1)
+
+        self.T_Roc_ACCZ = QLabel(self.widget_3)
+        self.T_Roc_ACCZ.setObjectName(u"T_Roc_ACCZ")
+        self.T_Roc_ACCZ.setMinimumSize(QSize(50, 0))
+        self.T_Roc_ACCZ.setMaximumSize(QSize(100, 16777215))
+        self.T_Roc_ACCZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Roc_ACCZ, 10, 2, 1, 1)
+
+        self.Roc_ACCZ = QLabel(self.widget_3)
+        self.Roc_ACCZ.setObjectName(u"Roc_ACCZ")
+        self.Roc_ACCZ.setMinimumSize(QSize(50, 0))
+        self.Roc_ACCZ.setMaximumSize(QSize(100, 16777215))
+        self.Roc_ACCZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+        self.Roc_ACCZ.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Roc_ACCZ, 10, 3, 1, 1)
+
+        self.Can_GYRX = QLabel(self.widget_3)
+        self.Can_GYRX.setObjectName(u"Can_GYRX")
+        self.Can_GYRX.setMinimumSize(QSize(50, 0))
+        self.Can_GYRX.setMaximumSize(QSize(100, 16777215))
+        self.Can_GYRX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.Can_GYRX, 11, 1, 1, 1)
+
+        self.T_Can_GYRX = QLabel(self.widget_3)
+        self.T_Can_GYRX.setObjectName(u"T_Can_GYRX")
+        self.T_Can_GYRX.setMinimumSize(QSize(50, 0))
+        self.T_Can_GYRX.setMaximumSize(QSize(100, 16777215))
+        self.T_Can_GYRX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Can_GYRX, 11, 0, 1, 1)
+
+        self.Roc_ACCY = QLabel(self.widget_3)
+        self.Roc_ACCY.setObjectName(u"Roc_ACCY")
+        self.Roc_ACCY.setMinimumSize(QSize(50, 0))
+        self.Roc_ACCY.setMaximumSize(QSize(100, 16777215))
+        self.Roc_ACCY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+        self.Roc_ACCY.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Roc_ACCY, 9, 3, 1, 1)
+
+        self.Can_ACCZ = QLabel(self.widget_3)
+        self.Can_ACCZ.setObjectName(u"Can_ACCZ")
+        self.Can_ACCZ.setMinimumSize(QSize(50, 0))
+        self.Can_ACCZ.setMaximumSize(QSize(100, 16777215))
+        self.Can_ACCZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.Can_ACCZ, 10, 1, 1, 1)
+
+        self.Can_GYRY = QLabel(self.widget_3)
+        self.Can_GYRY.setObjectName(u"Can_GYRY")
+        self.Can_GYRY.setMinimumSize(QSize(50, 0))
+        self.Can_GYRY.setMaximumSize(QSize(100, 16777215))
+        self.Can_GYRY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.Can_GYRY, 12, 1, 1, 1)
+
+        self.T_Roc_GYRY = QLabel(self.widget_3)
+        self.T_Roc_GYRY.setObjectName(u"T_Roc_GYRY")
+        self.T_Roc_GYRY.setMinimumSize(QSize(50, 0))
+        self.T_Roc_GYRY.setMaximumSize(QSize(100, 16777215))
+        self.T_Roc_GYRY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Roc_GYRY, 12, 2, 1, 1)
+
+        self.T_Roc_GYRX = QLabel(self.widget_3)
+        self.T_Roc_GYRX.setObjectName(u"T_Roc_GYRX")
+        self.T_Roc_GYRX.setMinimumSize(QSize(50, 0))
+        self.T_Roc_GYRX.setMaximumSize(QSize(100, 16777215))
+        self.T_Roc_GYRX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Roc_GYRX, 11, 2, 1, 1)
+
+        self.Roc_GYRX = QLabel(self.widget_3)
+        self.Roc_GYRX.setObjectName(u"Roc_GYRX")
+        self.Roc_GYRX.setMinimumSize(QSize(50, 0))
+        self.Roc_GYRX.setMaximumSize(QSize(100, 16777215))
+        self.Roc_GYRX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+        self.Roc_GYRX.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Roc_GYRX, 11, 3, 1, 1)
+
+        self.T_Can_GYRY = QLabel(self.widget_3)
+        self.T_Can_GYRY.setObjectName(u"T_Can_GYRY")
+        self.T_Can_GYRY.setMinimumSize(QSize(50, 0))
+        self.T_Can_GYRY.setMaximumSize(QSize(100, 16777215))
+        self.T_Can_GYRY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Can_GYRY, 12, 0, 1, 1)
+
+        self.Roc_GYRY = QLabel(self.widget_3)
+        self.Roc_GYRY.setObjectName(u"Roc_GYRY")
+        self.Roc_GYRY.setMinimumSize(QSize(50, 0))
+        self.Roc_GYRY.setMaximumSize(QSize(100, 16777215))
+        self.Roc_GYRY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+        self.Roc_GYRY.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Roc_GYRY, 12, 3, 1, 1)
+
+        self.T_Roc_GYRZ = QLabel(self.widget_3)
+        self.T_Roc_GYRZ.setObjectName(u"T_Roc_GYRZ")
+        self.T_Roc_GYRZ.setMinimumSize(QSize(50, 0))
+        self.T_Roc_GYRZ.setMaximumSize(QSize(100, 16777215))
+        self.T_Roc_GYRZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Roc_GYRZ, 13, 2, 1, 1)
+
+        self.Roc_GYRZ = QLabel(self.widget_3)
+        self.Roc_GYRZ.setObjectName(u"Roc_GYRZ")
+        self.Roc_GYRZ.setMinimumSize(QSize(50, 0))
+        self.Roc_GYRZ.setMaximumSize(QSize(100, 16777215))
+        self.Roc_GYRZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+        self.Roc_GYRZ.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Roc_GYRZ, 13, 3, 1, 1)
+
+        self.T_Can_GYRZ = QLabel(self.widget_3)
+        self.T_Can_GYRZ.setObjectName(u"T_Can_GYRZ")
+        self.T_Can_GYRZ.setMinimumSize(QSize(50, 0))
+        self.T_Can_GYRZ.setMaximumSize(QSize(100, 16777215))
+        self.T_Can_GYRZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.T_Can_GYRZ, 13, 0, 1, 1)
+
+        self.Can_GYRZ = QLabel(self.widget_3)
+        self.Can_GYRZ.setObjectName(u"Can_GYRZ")
+        self.Can_GYRZ.setMinimumSize(QSize(50, 0))
+        self.Can_GYRZ.setMaximumSize(QSize(100, 16777215))
+        self.Can_GYRZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.Can_GYRZ, 13, 1, 1, 1)
+
+        self.Humid_graph = PlotWidget(self.widget_3)
+        self.Humid_graph.setObjectName(u"Humid_graph")
+        self.Humid_graph.setMinimumSize(QSize(350, 150))
+        self.Humid_graph.setMaximumSize(QSize(350, 16777215))
+
+        self.gridLayout_5.addWidget(self.Humid_graph, 0, 0, 1, 4)
+
+        self.Can_rotat_graph = PlotWidget(self.widget_3)
+        self.Can_rotat_graph.setObjectName(u"Can_rotat_graph")
+        self.Can_rotat_graph.setMinimumSize(QSize(350, 150))
+        self.Can_rotat_graph.setMaximumSize(QSize(350, 16777215))
+
+        self.gridLayout_5.addWidget(self.Can_rotat_graph, 2, 0, 1, 4)
+
+        self.Can_PKG = QLabel(self.widget_3)
+        self.Can_PKG.setObjectName(u"Can_PKG")
+        self.Can_PKG.setMinimumSize(QSize(50, 0))
+        self.Can_PKG.setMaximumSize(QSize(100, 16777215))
+        self.Can_PKG.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
+
+        self.gridLayout_5.addWidget(self.Can_PKG, 7, 1, 1, 1)
+
+        self.T_Roc_2 = QLabel(self.widget_3)
+        self.T_Roc_2.setObjectName(u"T_Roc_2")
+
+        self.gridLayout_5.addWidget(self.T_Roc_2, 6, 2, 1, 2)
+
+        self.Can_rotat = QLabel(self.widget_3)
+        self.Can_rotat.setObjectName(u"Can_rotat")
+        self.Can_rotat.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Can_rotat, 3, 2, 1, 2)
+
+        self.C_R_peek = QLabel(self.widget_3)
+        self.C_R_peek.setObjectName(u"C_R_peek")
+        self.C_R_peek.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.C_R_peek, 4, 2, 1, 2)
+
+        self.C_R_posi = QLabel(self.widget_3)
+        self.C_R_posi.setObjectName(u"C_R_posi")
+        self.C_R_posi.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.C_R_posi, 5, 2, 1, 2)
+
+        self.Can_Humid = QLabel(self.widget_3)
+        self.Can_Humid.setObjectName(u"Can_Humid")
+        self.Can_Humid.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_5.addWidget(self.Can_Humid, 1, 2, 1, 2)
+
+
+        self.gridLayout.addWidget(self.widget_3, 0, 2, 1, 1)
+
         self.widget_2 = QWidget(self.centralwidget)
         self.widget_2.setObjectName(u"widget_2")
         self.widget_2.setMaximumSize(QSize(500, 16777215))
@@ -193,231 +499,32 @@ class Ui_MainWindow(object):
 
         self.gridLayout.addWidget(self.widget_2, 0, 1, 1, 1)
 
-        self.widget_3 = QWidget(self.centralwidget)
-        self.widget_3.setObjectName(u"widget_3")
-        self.gridLayout_5 = QGridLayout(self.widget_3)
-        self.gridLayout_5.setObjectName(u"gridLayout_5")
-        self.Humid_graph = PlotWidget(self.widget_3)
-        self.Humid_graph.setObjectName(u"Humid_graph")
-        self.Humid_graph.setMinimumSize(QSize(300, 150))
-        self.Humid_graph.setMaximumSize(QSize(300, 16777215))
-
-        self.gridLayout_5.addWidget(self.Humid_graph, 0, 0, 1, 4)
-
-        self.Roc_GYRY = QLabel(self.widget_3)
-        self.Roc_GYRY.setObjectName(u"Roc_GYRY")
-        self.Roc_GYRY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Roc_GYRY, 11, 3, 1, 1)
-
-        self.T_Roc_GYRY = QLabel(self.widget_3)
-        self.T_Roc_GYRY.setObjectName(u"T_Roc_GYRY")
-        self.T_Roc_GYRY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Roc_GYRY, 11, 2, 1, 1)
-
-        self.Can_GYRZ = QLabel(self.widget_3)
-        self.Can_GYRZ.setObjectName(u"Can_GYRZ")
-        self.Can_GYRZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Can_GYRZ, 12, 1, 1, 1)
-
-        self.Can_GYRY = QLabel(self.widget_3)
-        self.Can_GYRY.setObjectName(u"Can_GYRY")
-        self.Can_GYRY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Can_GYRY, 11, 1, 1, 1)
-
-        self.T_Roc_GYRX = QLabel(self.widget_3)
-        self.T_Roc_GYRX.setObjectName(u"T_Roc_GYRX")
-        self.T_Roc_GYRX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Roc_GYRX, 10, 2, 1, 1)
-
-        self.T_Can_2 = QLabel(self.widget_3)
-        self.T_Can_2.setObjectName(u"T_Can_2")
-
-        self.gridLayout_5.addWidget(self.T_Can_2, 6, 0, 1, 2)
-
-        self.Can_ACCX = QLabel(self.widget_3)
-        self.Can_ACCX.setObjectName(u"Can_ACCX")
-        self.Can_ACCX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Can_ACCX, 7, 1, 1, 1)
-
-        self.T_Roc_2 = QLabel(self.widget_3)
-        self.T_Roc_2.setObjectName(u"T_Roc_2")
-
-        self.gridLayout_5.addWidget(self.T_Roc_2, 6, 2, 1, 2)
-
-        self.Roc_GYRX = QLabel(self.widget_3)
-        self.Roc_GYRX.setObjectName(u"Roc_GYRX")
-        self.Roc_GYRX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Roc_GYRX, 10, 3, 1, 1)
-
-        self.T_Can_GYRZ = QLabel(self.widget_3)
-        self.T_Can_GYRZ.setObjectName(u"T_Can_GYRZ")
-        self.T_Can_GYRZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Can_GYRZ, 12, 0, 1, 1)
-
-        self.T_Can_GYRY = QLabel(self.widget_3)
-        self.T_Can_GYRY.setObjectName(u"T_Can_GYRY")
-        self.T_Can_GYRY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Can_GYRY, 11, 0, 1, 1)
-
-        self.T_Roc_ACCY = QLabel(self.widget_3)
-        self.T_Roc_ACCY.setObjectName(u"T_Roc_ACCY")
-        self.T_Roc_ACCY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Roc_ACCY, 8, 2, 1, 1)
-
-        self.Roc_GYRZ = QLabel(self.widget_3)
-        self.Roc_GYRZ.setObjectName(u"Roc_GYRZ")
-        self.Roc_GYRZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Roc_GYRZ, 12, 3, 1, 1)
-
-        self.T_Roc_GYRZ = QLabel(self.widget_3)
-        self.T_Roc_GYRZ.setObjectName(u"T_Roc_GYRZ")
-        self.T_Roc_GYRZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Roc_GYRZ, 12, 2, 1, 1)
-
-        self.Can_ACCY = QLabel(self.widget_3)
-        self.Can_ACCY.setObjectName(u"Can_ACCY")
-        self.Can_ACCY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Can_ACCY, 8, 1, 1, 1)
-
-        self.Can_ACCZ = QLabel(self.widget_3)
-        self.Can_ACCZ.setObjectName(u"Can_ACCZ")
-        self.Can_ACCZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Can_ACCZ, 9, 1, 1, 1)
-
-        self.T_Can_ACCY = QLabel(self.widget_3)
-        self.T_Can_ACCY.setObjectName(u"T_Can_ACCY")
-        self.T_Can_ACCY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Can_ACCY, 8, 0, 1, 1)
-
-        self.T_Can_ACCZ = QLabel(self.widget_3)
-        self.T_Can_ACCZ.setObjectName(u"T_Can_ACCZ")
-        self.T_Can_ACCZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Can_ACCZ, 9, 0, 1, 1)
-
-        self.Roc_ACCY = QLabel(self.widget_3)
-        self.Roc_ACCY.setObjectName(u"Roc_ACCY")
-        self.Roc_ACCY.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Roc_ACCY, 8, 3, 1, 1)
-
-        self.T_Roc_ACCZ = QLabel(self.widget_3)
-        self.T_Roc_ACCZ.setObjectName(u"T_Roc_ACCZ")
-        self.T_Roc_ACCZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Roc_ACCZ, 9, 2, 1, 1)
-
-        self.T_Can_GYRX = QLabel(self.widget_3)
-        self.T_Can_GYRX.setObjectName(u"T_Can_GYRX")
-        self.T_Can_GYRX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Can_GYRX, 10, 0, 1, 1)
-
-        self.Roc_ACCZ = QLabel(self.widget_3)
-        self.Roc_ACCZ.setObjectName(u"Roc_ACCZ")
-        self.Roc_ACCZ.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Roc_ACCZ, 9, 3, 1, 1)
-
-        self.Can_GYRX = QLabel(self.widget_3)
-        self.Can_GYRX.setObjectName(u"Can_GYRX")
-        self.Can_GYRX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Can_GYRX, 10, 1, 1, 1)
-
-        self.Roc_ACCX = QLabel(self.widget_3)
-        self.Roc_ACCX.setObjectName(u"Roc_ACCX")
-        self.Roc_ACCX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.Roc_ACCX, 7, 3, 1, 1)
-
-        self.T_Roc_ACCX = QLabel(self.widget_3)
-        self.T_Roc_ACCX.setObjectName(u"T_Roc_ACCX")
-        self.T_Roc_ACCX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Roc_ACCX, 7, 2, 1, 1)
-
-        self.T_Can_ACCX = QLabel(self.widget_3)
-        self.T_Can_ACCX.setObjectName(u"T_Can_ACCX")
-        self.T_Can_ACCX.setStyleSheet(u"font: 25 9pt \"Yu Mincho Light\";")
-
-        self.gridLayout_5.addWidget(self.T_Can_ACCX, 7, 0, 1, 1)
-
-        self.Can_rotat_graph = PlotWidget(self.widget_3)
-        self.Can_rotat_graph.setObjectName(u"Can_rotat_graph")
-        self.Can_rotat_graph.setMinimumSize(QSize(200, 150))
-        self.Can_rotat_graph.setMaximumSize(QSize(300, 16777215))
-
-        self.gridLayout_5.addWidget(self.Can_rotat_graph, 2, 0, 1, 4)
-
-        self.T_C_R_peek = QLabel(self.widget_3)
-        self.T_C_R_peek.setObjectName(u"T_C_R_peek")
-
-        self.gridLayout_5.addWidget(self.T_C_R_peek, 4, 0, 1, 1)
-
-        self.T_C_R_posi = QLabel(self.widget_3)
-        self.T_C_R_posi.setObjectName(u"T_C_R_posi")
-
-        self.gridLayout_5.addWidget(self.T_C_R_posi, 5, 0, 1, 1)
-
-        self.label_10 = QLabel(self.widget_3)
-        self.label_10.setObjectName(u"label_10")
-        self.label_10.setAlignment(Qt.AlignCenter)
-
-        self.gridLayout_5.addWidget(self.label_10, 5, 1, 1, 3)
-
-        self.C_R_peek = QLabel(self.widget_3)
-        self.C_R_peek.setObjectName(u"C_R_peek")
-        self.C_R_peek.setAlignment(Qt.AlignCenter)
-
-        self.gridLayout_5.addWidget(self.C_R_peek, 4, 1, 1, 3)
-
-        self.T_Can_Humid = QLabel(self.widget_3)
-        self.T_Can_Humid.setObjectName(u"T_Can_Humid")
-
-        self.gridLayout_5.addWidget(self.T_Can_Humid, 1, 0, 1, 1)
-
-        self.Can_Humid = QLabel(self.widget_3)
-        self.Can_Humid.setObjectName(u"Can_Humid")
-        self.Can_Humid.setAlignment(Qt.AlignCenter)
-
-        self.gridLayout_5.addWidget(self.Can_Humid, 1, 1, 1, 3)
-
-        self.T_Can_rotat = QLabel(self.widget_3)
-        self.T_Can_rotat.setObjectName(u"T_Can_rotat")
-
-        self.gridLayout_5.addWidget(self.T_Can_rotat, 3, 0, 1, 1)
-
-        self.Can_rotat = QLabel(self.widget_3)
-        self.Can_rotat.setObjectName(u"Can_rotat")
-        self.Can_rotat.setAlignment(Qt.AlignCenter)
-
-        self.gridLayout_5.addWidget(self.Can_rotat, 3, 1, 1, 3)
-
-
-        self.gridLayout.addWidget(self.widget_3, 0, 2, 1, 1)
-
         self.widget = QWidget(self.centralwidget)
         self.widget.setObjectName(u"widget")
         self.gridLayout_2 = QGridLayout(self.widget)
         self.gridLayout_2.setSpacing(6)
         self.gridLayout_2.setObjectName(u"gridLayout_2")
         self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.port_box = QComboBox(self.widget)
+        self.port_box.setObjectName(u"port_box")
+        self.port_box.setMinimumSize(QSize(0, 30))
+
+        self.gridLayout_2.addWidget(self.port_box, 2, 0, 1, 4)
+
+        self.time = QLabel(self.widget)
+        self.time.setObjectName(u"time")
+        self.time.setMinimumSize(QSize(0, 80))
+        self.time.setMaximumSize(QSize(16777215, 100))
+        self.time.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_2.addWidget(self.time, 0, 2, 1, 2)
+
+        self.Baud_box = QComboBox(self.widget)
+        self.Baud_box.setObjectName(u"Baud_box")
+        self.Baud_box.setMinimumSize(QSize(0, 30))
+
+        self.gridLayout_2.addWidget(self.Baud_box, 3, 0, 1, 4)
+
         self.elapsed = QLabel(self.widget)
         self.elapsed.setObjectName(u"elapsed")
         self.elapsed.setMinimumSize(QSize(0, 80))
@@ -426,11 +533,12 @@ class Ui_MainWindow(object):
 
         self.gridLayout_2.addWidget(self.elapsed, 1, 2, 1, 2)
 
-        self.Baud_box = QComboBox(self.widget)
-        self.Baud_box.setObjectName(u"Baud_box")
-        self.Baud_box.setMinimumSize(QSize(0, 30))
+        self.clear_bt = QPushButton(self.widget)
+        self.clear_bt.setObjectName(u"clear_bt")
+        self.clear_bt.setMinimumSize(QSize(0, 30))
+        self.clear_bt.setStyleSheet(u"font: 25 12pt \"Yu Mincho Light\";")
 
-        self.gridLayout_2.addWidget(self.Baud_box, 3, 0, 1, 4)
+        self.gridLayout_2.addWidget(self.clear_bt, 4, 1, 1, 1)
 
         self.refresh_bt = QPushButton(self.widget)
         self.refresh_bt.setObjectName(u"refresh_bt")
@@ -446,12 +554,35 @@ class Ui_MainWindow(object):
 
         self.gridLayout_2.addWidget(self.start_bt, 4, 0, 1, 1)
 
-        self.clear_bt = QPushButton(self.widget)
-        self.clear_bt.setObjectName(u"clear_bt")
-        self.clear_bt.setMinimumSize(QSize(0, 30))
-        self.clear_bt.setStyleSheet(u"font: 25 12pt \"Yu Mincho Light\";")
+        self.widget_4 = QWidget(self.widget)
+        self.widget_4.setObjectName(u"widget_4")
+        self.widget_4.setMinimumSize(QSize(0, 100))
+        self.widget_4.setMaximumSize(QSize(16777215, 100))
+        self.T_file_name = QLabel(self.widget_4)
+        self.T_file_name.setObjectName(u"T_file_name")
+        self.T_file_name.setGeometry(QRect(10, 59, 121, 41))
+        self.T_file_name.setMinimumSize(QSize(0, 0))
+        self.comboBox = QComboBox(self.widget_4)
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setGeometry(QRect(0, 0, 201, 41))
+        self.send_CMD_bt = QPushButton(self.widget_4)
+        self.send_CMD_bt.setObjectName(u"send_CMD_bt")
+        self.send_CMD_bt.setGeometry(QRect(210, 0, 111, 41))
+        self.send_CMD_bt.setMinimumSize(QSize(0, 30))
+        self.send_CMD_bt.setStyleSheet(u"font: 25 12pt \"Yu Mincho Light\";")
+        self.file_name = QLabel(self.widget_4)
+        self.file_name.setObjectName(u"file_name")
+        self.file_name.setGeometry(QRect(130, 59, 201, 41))
+        self.file_name.setMinimumSize(QSize(0, 0))
+        self.file_name.setAlignment(Qt.AlignCenter)
 
-        self.gridLayout_2.addWidget(self.clear_bt, 4, 1, 1, 1)
+        self.gridLayout_2.addWidget(self.widget_4, 5, 0, 1, 4)
 
         self.widget_5 = QWidget(self.widget)
         self.widget_5.setObjectName(u"widget_5")
@@ -597,50 +728,6 @@ class Ui_MainWindow(object):
 
         self.gridLayout_2.addWidget(self.widget_5, 6, 0, 1, 4)
 
-        self.widget_4 = QWidget(self.widget)
-        self.widget_4.setObjectName(u"widget_4")
-        self.widget_4.setMinimumSize(QSize(0, 100))
-        self.widget_4.setMaximumSize(QSize(16777215, 100))
-        self.T_file_name = QLabel(self.widget_4)
-        self.T_file_name.setObjectName(u"T_file_name")
-        self.T_file_name.setGeometry(QRect(10, 59, 121, 41))
-        self.T_file_name.setMinimumSize(QSize(0, 0))
-        self.comboBox = QComboBox(self.widget_4)
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.setObjectName(u"comboBox")
-        self.comboBox.setGeometry(QRect(0, 0, 201, 41))
-        self.send_CMD_bt = QPushButton(self.widget_4)
-        self.send_CMD_bt.setObjectName(u"send_CMD_bt")
-        self.send_CMD_bt.setGeometry(QRect(220, 0, 111, 41))
-        self.send_CMD_bt.setMinimumSize(QSize(0, 30))
-        self.send_CMD_bt.setStyleSheet(u"font: 25 12pt \"Yu Mincho Light\";")
-        self.file_name = QLabel(self.widget_4)
-        self.file_name.setObjectName(u"file_name")
-        self.file_name.setGeometry(QRect(130, 59, 201, 41))
-        self.file_name.setMinimumSize(QSize(0, 0))
-        self.file_name.setAlignment(Qt.AlignCenter)
-
-        self.gridLayout_2.addWidget(self.widget_4, 5, 0, 1, 4)
-
-        self.port_box = QComboBox(self.widget)
-        self.port_box.setObjectName(u"port_box")
-        self.port_box.setMinimumSize(QSize(0, 30))
-
-        self.gridLayout_2.addWidget(self.port_box, 2, 0, 1, 4)
-
-        self.time = QLabel(self.widget)
-        self.time.setObjectName(u"time")
-        self.time.setMinimumSize(QSize(0, 80))
-        self.time.setMaximumSize(QSize(16777215, 100))
-        self.time.setAlignment(Qt.AlignCenter)
-
-        self.gridLayout_2.addWidget(self.time, 0, 2, 1, 2)
-
         self.frame = QFrame(self.widget)
         self.frame.setObjectName(u"frame")
         self.frame.setStyleSheet(u"image: url(:/newPrefix/logo.png);\n"
@@ -662,6 +749,44 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.T_Can_Humid.setText(QCoreApplication.translate("MainWindow", u"Humidity", None))
+        self.T_Can_rotat.setText(QCoreApplication.translate("MainWindow", u"Rotation rate", None))
+        self.T_C_R_peek.setText(QCoreApplication.translate("MainWindow", u"Peek Alt", None))
+        self.T_C_R_posi.setText(QCoreApplication.translate("MainWindow", u"Position", None))
+        self.T_Can_PKG.setText(QCoreApplication.translate("MainWindow", u"PKG count", None))
+        self.T_Can_2.setText(QCoreApplication.translate("MainWindow", u"CanSat", None))
+        self.T_Can_ACCX.setText(QCoreApplication.translate("MainWindow", u"ACCX", None))
+        self.Can_ACCX.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.Roc_ACCX.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.T_Can_ACCY.setText(QCoreApplication.translate("MainWindow", u"ACCY", None))
+        self.T_Roc_ACCX.setText(QCoreApplication.translate("MainWindow", u"ACCX", None))
+        self.Can_ACCY.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.Roc_PKG.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.T_Roc_PKG.setText(QCoreApplication.translate("MainWindow", u"PKG count", None))
+        self.T_Roc_ACCY.setText(QCoreApplication.translate("MainWindow", u"ACCY", None))
+        self.T_Can_ACCZ.setText(QCoreApplication.translate("MainWindow", u"ACCZ", None))
+        self.T_Roc_ACCZ.setText(QCoreApplication.translate("MainWindow", u"ACCZ", None))
+        self.Roc_ACCZ.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.Can_GYRX.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.T_Can_GYRX.setText(QCoreApplication.translate("MainWindow", u"GYRX", None))
+        self.Roc_ACCY.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.Can_ACCZ.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.Can_GYRY.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.T_Roc_GYRY.setText(QCoreApplication.translate("MainWindow", u"GYRY", None))
+        self.T_Roc_GYRX.setText(QCoreApplication.translate("MainWindow", u"GYRX", None))
+        self.Roc_GYRX.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.T_Can_GYRY.setText(QCoreApplication.translate("MainWindow", u"GYRY", None))
+        self.Roc_GYRY.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.T_Roc_GYRZ.setText(QCoreApplication.translate("MainWindow", u"GYRZ", None))
+        self.Roc_GYRZ.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.T_Can_GYRZ.setText(QCoreApplication.translate("MainWindow", u"GYRZ", None))
+        self.Can_GYRZ.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.Can_PKG.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.T_Roc_2.setText(QCoreApplication.translate("MainWindow", u"Rocket", None))
+        self.Can_rotat.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.C_R_peek.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.C_R_posi.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.Can_Humid.setText(QCoreApplication.translate("MainWindow", u"0", None))
         self.T_Can_Tem.setText(QCoreApplication.translate("MainWindow", u"Temperature", None))
         self.T_Can_Alt.setText(QCoreApplication.translate("MainWindow", u"Altitude", None))
         self.T_Can.setText(QCoreApplication.translate("MainWindow", u"CanSat", None))
@@ -678,44 +803,21 @@ class Ui_MainWindow(object):
         self.Roc_Lati.setText(QCoreApplication.translate("MainWindow", u"Latitude", None))
         self.T_Roc_Batt.setText(QCoreApplication.translate("MainWindow", u"Battery", None))
         self.T_Roc.setText(QCoreApplication.translate("MainWindow", u"Rocket", None))
-        self.Roc_GYRY.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Roc_GYRY.setText(QCoreApplication.translate("MainWindow", u"GYRY", None))
-        self.Can_GYRZ.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.Can_GYRY.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Roc_GYRX.setText(QCoreApplication.translate("MainWindow", u"GYRX", None))
-        self.T_Can_2.setText(QCoreApplication.translate("MainWindow", u"CanSat", None))
-        self.Can_ACCX.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Roc_2.setText(QCoreApplication.translate("MainWindow", u"Rocket", None))
-        self.Roc_GYRX.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Can_GYRZ.setText(QCoreApplication.translate("MainWindow", u"GYRZ", None))
-        self.T_Can_GYRY.setText(QCoreApplication.translate("MainWindow", u"GYRY", None))
-        self.T_Roc_ACCY.setText(QCoreApplication.translate("MainWindow", u"ACCY", None))
-        self.Roc_GYRZ.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Roc_GYRZ.setText(QCoreApplication.translate("MainWindow", u"GYRZ", None))
-        self.Can_ACCY.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.Can_ACCZ.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Can_ACCY.setText(QCoreApplication.translate("MainWindow", u"ACCY", None))
-        self.T_Can_ACCZ.setText(QCoreApplication.translate("MainWindow", u"ACCZ", None))
-        self.Roc_ACCY.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Roc_ACCZ.setText(QCoreApplication.translate("MainWindow", u"ACCZ", None))
-        self.T_Can_GYRX.setText(QCoreApplication.translate("MainWindow", u"GYRX", None))
-        self.Roc_ACCZ.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.Can_GYRX.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.Roc_ACCX.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Roc_ACCX.setText(QCoreApplication.translate("MainWindow", u"ACCX", None))
-        self.T_Can_ACCX.setText(QCoreApplication.translate("MainWindow", u"ACCX", None))
-        self.T_C_R_peek.setText(QCoreApplication.translate("MainWindow", u"Peek Alt", None))
-        self.T_C_R_posi.setText(QCoreApplication.translate("MainWindow", u"Position", None))
-        self.label_10.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.C_R_peek.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Can_Humid.setText(QCoreApplication.translate("MainWindow", u"Humidity", None))
-        self.Can_Humid.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.T_Can_rotat.setText(QCoreApplication.translate("MainWindow", u"Rotation rate", None))
-        self.Can_rotat.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.time.setText(QCoreApplication.translate("MainWindow", u"00:00:00", None))
         self.elapsed.setText(QCoreApplication.translate("MainWindow", u"00:00:00", None))
+        self.clear_bt.setText(QCoreApplication.translate("MainWindow", u"Clear", None))
         self.refresh_bt.setText(QCoreApplication.translate("MainWindow", u"Refresh", None))
         self.start_bt.setText(QCoreApplication.translate("MainWindow", u"Start", None))
-        self.clear_bt.setText(QCoreApplication.translate("MainWindow", u"Clear", None))
+        self.T_file_name.setText(QCoreApplication.translate("MainWindow", u"File name :", None))
+        self.comboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"CMDCX,ON$", None))
+        self.comboBox.setItemText(1, QCoreApplication.translate("MainWindow", u"CMDCX,OFF$", None))
+        self.comboBox.setItemText(2, QCoreApplication.translate("MainWindow", u"CMDSP1,ON$", None))
+        self.comboBox.setItemText(3, QCoreApplication.translate("MainWindow", u"CMDSP2,ON$", None))
+        self.comboBox.setItemText(4, QCoreApplication.translate("MainWindow", u"CMDSP1,OFF$", None))
+        self.comboBox.setItemText(5, QCoreApplication.translate("MainWindow", u"CMDSP2,OFF$", None))
+
+        self.send_CMD_bt.setText(QCoreApplication.translate("MainWindow", u"Send CMD", None))
+        self.file_name.setText(QCoreApplication.translate("MainWindow", u"???", None))
         self.LOS.setText(QCoreApplication.translate("MainWindow", u"0", None))
         self.T_LOS.setText(QCoreApplication.translate("MainWindow", u"Line of sight", None))
         self.T_Alt.setText(QCoreApplication.translate("MainWindow", u"ALT", None))
@@ -732,16 +834,5 @@ class Ui_MainWindow(object):
         self.T_Ele.setText(QCoreApplication.translate("MainWindow", u"ELEVATION", None))
         self.Azi.setText(QCoreApplication.translate("MainWindow", u"0", None))
         self.T_Azi.setText(QCoreApplication.translate("MainWindow", u"AZIMUTH", None))
-        self.T_file_name.setText(QCoreApplication.translate("MainWindow", u"File name :", None))
-        self.comboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"CMDCX,ON$", None))
-        self.comboBox.setItemText(1, QCoreApplication.translate("MainWindow", u"CMDCX,OFF$", None))
-        self.comboBox.setItemText(2, QCoreApplication.translate("MainWindow", u"CMDSP1,ON$", None))
-        self.comboBox.setItemText(3, QCoreApplication.translate("MainWindow", u"CMDSP2,ON$", None))
-        self.comboBox.setItemText(4, QCoreApplication.translate("MainWindow", u"CMDSP1,OFF$", None))
-        self.comboBox.setItemText(5, QCoreApplication.translate("MainWindow", u"CMDSP2,OFF$", None))
-
-        self.send_CMD_bt.setText(QCoreApplication.translate("MainWindow", u"Send CMD", None))
-        self.file_name.setText(QCoreApplication.translate("MainWindow", u"???", None))
-        self.time.setText(QCoreApplication.translate("MainWindow", u"00:00:00", None))
     # retranslateUi
 

@@ -40,6 +40,7 @@ class MainWindow(QMainWindow):
 
     def start(self):
         self.port = self.ui.port_box.currentText()
+        self.port = self.ui.Baud_box.currentText()
         self.baudrate = 9600
         Window.start(self.port,self.baudrate)
     
@@ -100,6 +101,7 @@ class TimerThread(QThread):
         while True:
             self.carrier1.emit(self.clock.time_pc())
             self.carrier2.emit(self.clock.time_elapsed())
+            time.sleep(0.001)
 
     def stop(self):
         self._isRunning = False
@@ -133,6 +135,7 @@ class Controller:
         self.clock.carrier1.connect(self.update_clock)
         self.clock.carrier2.connect(self.update_elapsed)
         self.clock.start()
+        time.sleep(0.001)
 
     def update_cansat(self,data):
         self.cansat["PKG"].append(int(data["PKG"]))

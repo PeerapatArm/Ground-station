@@ -59,6 +59,763 @@ font: 25 14pt &quot;Yu Mincho Light&quot;;</string>
     <property name="spacing">
      <number>0</number>
     </property>
+    <item row="0" column="2">
+     <widget class="QWidget" name="widget_3" native="true">
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="1" column="0">
+        <widget class="QLabel" name="T_Can_Humid">
+         <property name="text">
+          <string>Humidity</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="T_Can_rotat">
+         <property name="text">
+          <string>Rotation rate</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="T_C_R_peek">
+         <property name="text">
+          <string>Peek Alt</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="T_C_R_posi">
+         <property name="text">
+          <string>Position</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="T_Can_PKG">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>PKG count</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="QLabel" name="T_Can_2">
+         <property name="text">
+          <string>CanSat</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="T_Can_ACCX">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ACCX</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLabel" name="Can_ACCX">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="3">
+        <widget class="QLabel" name="Roc_ACCX">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="T_Can_ACCY">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ACCY</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QLabel" name="T_Roc_ACCX">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ACCX</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QLabel" name="Can_ACCY">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="3">
+        <widget class="QLabel" name="Roc_PKG">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLabel" name="T_Roc_PKG">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>PKG count</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="2">
+        <widget class="QLabel" name="T_Roc_ACCY">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ACCY</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="T_Can_ACCZ">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ACCZ</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="2">
+        <widget class="QLabel" name="T_Roc_ACCZ">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ACCZ</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="3">
+        <widget class="QLabel" name="Roc_ACCZ">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QLabel" name="Can_GYRX">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLabel" name="T_Can_GYRX">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>GYRX</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="3">
+        <widget class="QLabel" name="Roc_ACCY">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QLabel" name="Can_ACCZ">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="1">
+        <widget class="QLabel" name="Can_GYRY">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="2">
+        <widget class="QLabel" name="T_Roc_GYRY">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>GYRY</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="2">
+        <widget class="QLabel" name="T_Roc_GYRX">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>GYRX</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="3">
+        <widget class="QLabel" name="Roc_GYRX">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QLabel" name="T_Can_GYRY">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>GYRY</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="3">
+        <widget class="QLabel" name="Roc_GYRY">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="2">
+        <widget class="QLabel" name="T_Roc_GYRZ">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>GYRZ</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="3">
+        <widget class="QLabel" name="Roc_GYRZ">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="0">
+        <widget class="QLabel" name="T_Can_GYRZ">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>GYRZ</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="1">
+        <widget class="QLabel" name="Can_GYRZ">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="4">
+        <widget class="PlotWidget" name="Humid_graph" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>350</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>350</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="4">
+        <widget class="PlotWidget" name="Can_rotat_graph" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>350</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>350</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLabel" name="Can_PKG">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2" colspan="2">
+        <widget class="QLabel" name="T_Roc_2">
+         <property name="text">
+          <string>Rocket</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2" colspan="2">
+        <widget class="QLabel" name="Can_rotat">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2" colspan="2">
+        <widget class="QLabel" name="C_R_peek">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2" colspan="2">
+        <widget class="QLabel" name="C_R_posi">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2" colspan="2">
+        <widget class="QLabel" name="Can_Humid">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
     <item row="0" column="1">
      <widget class="QWidget" name="widget_2" native="true">
       <property name="maximumSize">
@@ -360,366 +1117,6 @@ font: 25 14pt &quot;Yu Mincho Light&quot;;</string>
       </layout>
      </widget>
     </item>
-    <item row="0" column="2">
-     <widget class="QWidget" name="widget_3" native="true">
-      <layout class="QGridLayout" name="gridLayout_5">
-       <item row="0" column="0" colspan="4">
-        <widget class="PlotWidget" name="Humid_graph" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>300</width>
-           <height>150</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>300</width>
-           <height>16777215</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="3">
-        <widget class="QLabel" name="Roc_GYRY">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="2">
-        <widget class="QLabel" name="T_Roc_GYRY">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>GYRY</string>
-         </property>
-        </widget>
-       </item>
-       <item row="12" column="1">
-        <widget class="QLabel" name="Can_GYRZ">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="1">
-        <widget class="QLabel" name="Can_GYRY">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="10" column="2">
-        <widget class="QLabel" name="T_Roc_GYRX">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>GYRX</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0" colspan="2">
-        <widget class="QLabel" name="T_Can_2">
-         <property name="text">
-          <string>CanSat</string>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="1">
-        <widget class="QLabel" name="Can_ACCX">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="2" colspan="2">
-        <widget class="QLabel" name="T_Roc_2">
-         <property name="text">
-          <string>Rocket</string>
-         </property>
-        </widget>
-       </item>
-       <item row="10" column="3">
-        <widget class="QLabel" name="Roc_GYRX">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="12" column="0">
-        <widget class="QLabel" name="T_Can_GYRZ">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>GYRZ</string>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="0">
-        <widget class="QLabel" name="T_Can_GYRY">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>GYRY</string>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="2">
-        <widget class="QLabel" name="T_Roc_ACCY">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>ACCY</string>
-         </property>
-        </widget>
-       </item>
-       <item row="12" column="3">
-        <widget class="QLabel" name="Roc_GYRZ">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="12" column="2">
-        <widget class="QLabel" name="T_Roc_GYRZ">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>GYRZ</string>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="1">
-        <widget class="QLabel" name="Can_ACCY">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="9" column="1">
-        <widget class="QLabel" name="Can_ACCZ">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="0">
-        <widget class="QLabel" name="T_Can_ACCY">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>ACCY</string>
-         </property>
-        </widget>
-       </item>
-       <item row="9" column="0">
-        <widget class="QLabel" name="T_Can_ACCZ">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>ACCZ</string>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="3">
-        <widget class="QLabel" name="Roc_ACCY">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="9" column="2">
-        <widget class="QLabel" name="T_Roc_ACCZ">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>ACCZ</string>
-         </property>
-        </widget>
-       </item>
-       <item row="10" column="0">
-        <widget class="QLabel" name="T_Can_GYRX">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>GYRX</string>
-         </property>
-        </widget>
-       </item>
-       <item row="9" column="3">
-        <widget class="QLabel" name="Roc_ACCZ">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="10" column="1">
-        <widget class="QLabel" name="Can_GYRX">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="3">
-        <widget class="QLabel" name="Roc_ACCX">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>0</string>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="2">
-        <widget class="QLabel" name="T_Roc_ACCX">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>ACCX</string>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0">
-        <widget class="QLabel" name="T_Can_ACCX">
-         <property name="styleSheet">
-          <string notr="true">font: 25 9pt &quot;Yu Mincho Light&quot;;</string>
-         </property>
-         <property name="text">
-          <string>ACCX</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0" colspan="4">
-        <widget class="PlotWidget" name="Can_rotat_graph" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>200</width>
-           <height>150</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>300</width>
-           <height>16777215</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="T_C_R_peek">
-         <property name="text">
-          <string>Peek Alt</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLabel" name="T_C_R_posi">
-         <property name="text">
-          <string>Position</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="1" colspan="3">
-        <widget class="QLabel" name="label_10">
-         <property name="text">
-          <string>0</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="1" colspan="3">
-        <widget class="QLabel" name="C_R_peek">
-         <property name="text">
-          <string>0</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="T_Can_Humid">
-         <property name="text">
-          <string>Humidity</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1" colspan="3">
-        <widget class="QLabel" name="Can_Humid">
-         <property name="text">
-          <string>0</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="T_Can_rotat">
-         <property name="text">
-          <string>Rotation rate</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="1" colspan="3">
-        <widget class="QLabel" name="Can_rotat">
-         <property name="text">
-          <string>0</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
     <item row="0" column="0">
      <widget class="QWidget" name="widget" native="true">
       <layout class="QGridLayout" name="gridLayout_2">
@@ -738,8 +1135,18 @@ font: 25 14pt &quot;Yu Mincho Light&quot;;</string>
        <property name="spacing">
         <number>6</number>
        </property>
-       <item row="1" column="2" colspan="2">
-        <widget class="QLabel" name="elapsed">
+       <item row="2" column="0" colspan="4">
+        <widget class="QComboBox" name="port_box">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="2">
+        <widget class="QLabel" name="time">
          <property name="minimumSize">
           <size>
            <width>0</width>
@@ -767,6 +1174,44 @@ font: 25 14pt &quot;Yu Mincho Light&quot;;</string>
            <width>0</width>
            <height>30</height>
           </size>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2" colspan="2">
+        <widget class="QLabel" name="elapsed">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>00:00:00</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QPushButton" name="clear_bt">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 25 12pt &quot;Yu Mincho Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Clear</string>
          </property>
         </widget>
        </item>
@@ -802,20 +1247,123 @@ font: 25 14pt &quot;Yu Mincho Light&quot;;</string>
          </property>
         </widget>
        </item>
-       <item row="4" column="1">
-        <widget class="QPushButton" name="clear_bt">
+       <item row="5" column="0" colspan="4">
+        <widget class="QWidget" name="widget_4" native="true">
          <property name="minimumSize">
           <size>
            <width>0</width>
-           <height>30</height>
+           <height>100</height>
           </size>
          </property>
-         <property name="styleSheet">
-          <string notr="true">font: 25 12pt &quot;Yu Mincho Light&quot;;</string>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>100</height>
+          </size>
          </property>
-         <property name="text">
-          <string>Clear</string>
-         </property>
+         <widget class="QLabel" name="T_file_name">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>59</y>
+            <width>121</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>File name :</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>201</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>CMDCX,ON$</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CMDCX,OFF$</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CMDSP1,ON$</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CMDSP2,ON$</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CMDSP1,OFF$</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CMDSP2,OFF$</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QPushButton" name="send_CMD_bt">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>0</y>
+            <width>111</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 25 12pt &quot;Yu Mincho Light&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Send CMD</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="file_name">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>59</y>
+            <width>201</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>???</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
         </widget>
        </item>
        <item row="6" column="0" colspan="4">
@@ -1204,157 +1752,6 @@ font: 25 14pt &quot;Yu Mincho Light&quot;;</string>
            </widget>
           </item>
          </layout>
-        </widget>
-       </item>
-       <item row="5" column="0" colspan="4">
-        <widget class="QWidget" name="widget_4" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>100</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="T_file_name">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>59</y>
-            <width>121</width>
-            <height>41</height>
-           </rect>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>File name :</string>
-          </property>
-         </widget>
-         <widget class="QComboBox" name="comboBox">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>201</width>
-            <height>41</height>
-           </rect>
-          </property>
-          <item>
-           <property name="text">
-            <string>CMDCX,ON$</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>CMDCX,OFF$</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>CMDSP1,ON$</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>CMDSP2,ON$</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>CMDSP1,OFF$</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>CMDSP2,OFF$</string>
-           </property>
-          </item>
-         </widget>
-         <widget class="QPushButton" name="send_CMD_bt">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>0</y>
-            <width>111</width>
-            <height>41</height>
-           </rect>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>30</height>
-           </size>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 25 12pt &quot;Yu Mincho Light&quot;;</string>
-          </property>
-          <property name="text">
-           <string>Send CMD</string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="file_name">
-          <property name="geometry">
-           <rect>
-            <x>130</x>
-            <y>59</y>
-            <width>201</width>
-            <height>41</height>
-           </rect>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>???</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="2" column="0" colspan="4">
-        <widget class="QComboBox" name="port_box">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>30</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2" colspan="2">
-        <widget class="QLabel" name="time">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="text">
-          <string>00:00:00</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
         </widget>
        </item>
        <item row="0" column="0" rowspan="2" colspan="2">
