@@ -2,7 +2,7 @@ from PyQt5.QtCore import QThread
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from ui_main import Ui_MainWindow
 from setting_file import *
-from setting_file import Port
+from setting_file.Port import Port
 from setting_file import Clock
 
 class MainWindow(QMainWindow):
@@ -40,7 +40,7 @@ class MainWindow(QMainWindow):
 
     def start(self):
         self.port = self.ui.port_box.currentText()
-        self.port = self.ui.Baud_box.currentText()
+        self.baudrate = self.ui.Baud_box.currentText()
         self.baudrate = 9600
         Window.start(self.port,self.baudrate)
     
@@ -52,7 +52,7 @@ class SerialThread(QThread):
 
     def __init__(self,com,baud,parent = None) -> None:
         super(SerialThread,self).__init__(parent)
-        self.port =Port(com=com,baud=baud,end='$',filename="Project")
+        self.port =Port(com=com,baudrate=baud,end='$',file_name="Project")
         self.port.connect()
         self.dict = {
             'C': ["TYP","PKG","CLO","ALT","LAT","LNG","TEP","HUM","BAT","ACX","ACY","ACZ","GYX","GYY","GYZ","PEE","POS"],
@@ -135,7 +135,6 @@ class Controller:
         self.clock.carrier1.connect(self.update_clock)
         self.clock.carrier2.connect(self.update_elapsed)
         self.clock.start()
-        time.sleep(0.001)
 
     def update_cansat(self,data):
         self.cansat["PKG"].append(int(data["PKG"]))
